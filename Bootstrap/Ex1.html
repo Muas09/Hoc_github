@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>Form102</title>
+</head>
+<body>
+    <div class="container" style="border: 1px solid black;">
+        <div class="header">
+            <div class=" input-group" style="margin: 0px 0px;">
+               <button  type="button"class="btn" style="width: 150%; height:150%; text-align:left ;"><b>Ingreso de registro</b></button>
+               <div class="input-group-addon">
+                   <i class="glyphicon glyphicon-remove"></i>
+               </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="well well-sm" style="margin-top:10px; background-color:rgb(239, 212, 228)">Datos de instructor</div>
+            <div class="well well-lg" style="margin-top:-20px;background-color:rgb(251, 225, 192)">
+                <div class="row"></br>
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-1">
+                        <p><b>RUN</b></p>
+                    </div>
+                    <div class="col-sm-3">
+                        <input id="run" type="text" class="form-control" name="run">
+                    </div>
+
+                    <div class="col-sm-1">
+                        <p><b>Nombere Completo</b></p>
+                    </div>
+                    <div class="col-sm-3">
+                        <input id="Nombere Completo" type="text" class="form-control" name="Nombere Completo">
+                    </div>
+                    <div class="col-sm-2"></div>
+                </div>
+                <div class="row"></br>
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-1">
+                        <p><b>Fecha Nacimiento</b></p>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="input-group">
+                            <div class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></div>
+                            <input id="calendar" type="text" class="form-control" name="calendar" placeholder="dd-mm-yyyy">
+                        </div>
+                    </div>
+                    <div class="col-sm-1">
+                        <p><b>Email</b></p>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="input-group">
+                            <div class="input-group-addon">@</div>
+                            <input id="email" type="text" class="form-control" name="email" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="col-sm-1"></div>
+                    </div>
+
+
+                <div class="row"></br>
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-1">
+                        <p><b>Telefono</b></p>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="input-group">
+                            <div class="input-group-addon">12</div>
+                            <input id="telefono" type="number" min="0" max="12" class="form-control" name="Telefono">
+                        </div>
+                    </div> 
+
+                <div class="col-sm-1">
+                    <p><b>Derecition</b></p></div>
+                    <div class="col-sm-3">
+                        <input id="Derecition" type="text" class="form-control" name="Derecition"></div>
+                    <div class="col-sm-2"></div>
+                </div>
+
+                <div class="row"></br>
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-1">
+                        <p><b>Ciudad</b></p></div>
+                        <div class="form-group col-md-3">
+                            <select id="inputState" class="form-control" >
+                              <option selected>VietNam</option>
+                              <option>Anh</option>
+                              <option>New zeland</option>
+                            </select>
+                          </div>
+
+                <div class="row">
+                    <div class="col-sm-6"></div>
+                    <div class="col-sm-1">
+                        <p><b>Comuna</b></p></div>
+                        <div class="form-group col-md-3">
+                            <select id="inputState" class="form-control" >
+                                <option selected>CNTT</option>
+                                <option>Du Lich</option>
+                                <option>Kinh Te</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3" style="text-align: right;">
+                            <b>Auto</b>
+                        </div>
+                        <div class="col-md-9">
+                            <select name="select"   class="form-control" id="xxxx-13">
+                                <option value="2022">2022</option>
+                                <option value="2023">2023</option>
+                                <option value="2024">2024</option>
+                                <option value="2025">2025</option>
+                                <option value="2026">2026</option>
+                                <option value="2027">2027</option>
+                                <option value="2028">2028</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div> 
+        </div>  
+        <div class="footer">
+            <div class="well well-sm" style="background-color:rgb(236, 206, 206);">
+                <div class="row">
+                    <div class="col-sm-6" ></div>
+                    <div class="col-sm-1" >
+                        <button name="button" type="button" class="btn btn-info" style="background-color:#4169E1;color:white;border: #4169E1;">Submit</button>
+                    </div>
+                    <div class="col-sm-1">
+                        <button name="button" type="button" class="btn btn-info" style="background-color:#4169E1;color:white;border: #4169E1;">Cancelar</button>
+                    </div>
+                </div>    
+    </div>
+</div>
+    </div>  
+</body>
+</html>

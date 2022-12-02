@@ -1,0 +1,155 @@
+.container{
+    width: 1000px;
+    border: 2px solid black;
+    height: 1185px;
+}
+/* Tạo khung và màu cho phần header */
+.header{
+    background-color: burlywood;
+    border: 1px solid black;
+    height: 180;
+}
+/* Tạo phần logo và chữ */
+.anh_bia{
+    display: grid;
+    grid-template-columns: 200px 100px;
+}
+/* Thay đổi kích thước logo */
+.logo{
+    
+    max-width: 100px;
+    height: auto;
+}
+.left-content{
+    background-color: gray;
+    display: grid;
+    grid-template-columns: 20.4% 30%;
+}
+#mn1 .mn2 {
+    display: none;
+}
+#mn1 li:hover .mn2 {
+    display: block;
+}
+#mn1 .mn3{
+    display: none;
+}
+#mn1 li:hover .mn3{
+    display: block;
+}
+#mn1 .mn4{
+    display: none;
+}
+#mn1 li:hover .mn4{
+    display: block;
+}
+#mn1 .mn5{
+    display: none;
+
+}
+#mn1 li:hover .mn5{
+    display: block;
+}
+/* Tạo bố cục hiện thị ở phần product là 3 ảnh trên 1 dòng */
+.product{
+    padding: 10px;
+    margin: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+/* Tạo phần khung ở phần product */
+.PRODUCT1{
+    border: 1px solid;
+    width: 700px;
+    height: 1000px;
+}
+/* Thay đổi kích thước các ảnh trong phần product */
+.product img{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+/* Tạo màu,khung cho từng ảnh camera */
+.anh1{
+    border: 1px solid white;
+    width: 200px;
+    height: 350px;
+    background-color: white;
+    margin: 7px;
+
+}
+/* Tạo màu chữ và vị trí cho dòng chữ LUMIX DMC-2 */
+.text{
+    color: blue;
+    text-align: center;
+}
+/* Tạo màu chữ và vị trí cho dòng chữ DIGITAL CAMERA */
+.text2{
+    text-align: center;
+}
+/* Tạo màu chữ và trị cho dòng chữ Please call */
+.text3{
+    text-align: center;
+    color: red;
+}
+/* Tạo màu khung vị trí cho dòng chữ Add to cart */
+.text4{
+    text-align: center;
+    border: 1px solid;
+    width: 150px;
+    padding: 10px;
+    margin: 10px;
+    background-color: grey;
+    border-radius: 15px;
+}
+
+#h-menu ul a:hover{
+    background: #555;
+}
+#-menu li ul{
+    background: #444;
+}
+#-menu li ul{
+    position: absolute;
+    display: none;
+    width: 200px;
+}
+#-menu li :hover ul {
+    display: block;
+}
+ul.drop{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+    border: 1px solid #f1f1f1;
+    border-top: 1px solid #000 !important; 
+}
+ul.drop li, ul.drop li a{
+    border-bottom: 1px solid #000;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 5px;
+    position: relative;
+    display: block;
+    text-decoration: none;
+    color: darkblue;
+ }
+ul.drop li :hover, ul.drop li a :hover{
+    display: block;
+    background: #fbfbfb;
+    color: red;
+}
+ul.drop li> ul.drop{
+    position:absolute;
+    top: 0px;
+    left: 200px;
+    display: none;
+    border-right: 1px solid #000;
+    background-color: #fbfbfb;
+}
+ul.drop li :hover > ul.drop{
+    display: block;
+
+}
+                                                                                                                                                                                                                                                                                                                                                                                                                                   

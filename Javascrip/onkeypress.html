@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- <p>A function is triggered when the user is pressing a key in the input field.</p>
+
+<input type="text" onkeypress="myFunction()">
+<script>
+function myFunction() {
+  alert("You pressed a key inside the input field");
+}
+</script> -->
+
+
+
+<h1>HTML DOM Events</h1>
+<h2>The keyup Event</h2>
+
+<p>A function is triggered when the user releases a key in the input field.</p>
+<p>The function transforms the input field to upper case:</p>
+
+Enter your name: <input type="text" id="fname" onkeyup="myFunction()">
+Enter your fullname: <input type="text" id="fullname" onkeyup="myFunction()">
+<p id="demo">Ket qua la:</p>
+<script>
+    function myFunction() {
+        var x = document.getElementById("fname").value;
+        var y= document.getElementById("fullname").value;
+        document.getElementById("demo").innerHTML =  x+y;
+    }
+</script>
+
+ 
+</body>
+</html>

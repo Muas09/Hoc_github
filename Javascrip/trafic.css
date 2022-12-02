@@ -1,0 +1,13 @@
+body {
+    font-family: sans-serif;
+  }
+.den {
+  height: 120px;
+  width: 120px;
+  background-color: #555;
+  border-radius: 50%;
+  position: relative;
+  bottom: 500px;
+  margin: 28px auto;
+  margin-left: 750px;
+}

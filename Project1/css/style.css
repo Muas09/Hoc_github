@@ -1,0 +1,271 @@
+.navbar{
+  background-color:rgb(92, 92, 92);
+  height: 150px;
+}
+.back_ground1{
+  padding-top: 10px;
+  background: url(//bizweb.dktcdn.net/100/365/442/themes/737549/assets/bg1.png?1656562257403);
+  background-size: auto;
+}
+.back_ground2{
+  padding-top: 15px;
+  background-image: url(//bizweb.dktcdn.net/100/365/442/themes/737549/assets/bg-head.png?1664720334923);
+  background-color: rgb(109, 109, 112);
+  
+}
+.back_ground3{
+  background: #1f1f21 url(//bizweb.dktcdn.net/100/365/442/themes/737549/assets/bg-f2.jpg?1656562257403) no-repeat scroll top center;
+  
+}
+/* chia giua*/
+
+
+ul.submenu {
+    width: 250px;
+    background:white;
+    z-index: 100;
+    min-height: 50px;
+    display: none;
+    position: absolute;
+    color: black;
+    padding: auto;
+}
+
+ul.submenu li {
+    list-style: none;
+    width: 200px;
+}
+
+ul.submenu li a {
+   
+    text-decoration: none;
+    display: block;
+    border-top: 1px solid white;
+    line-height: 40px;
+
+}
+ul.submenu li a:hover{
+background-color:orangered;
+}
+
+ul.tocc>li:hover ul.submenu {
+    display: block;
+}
+.nav{
+  margin:20px; 
+  position:relative;
+  top: 50px
+
+}
+/* form */
+.navbar_form{
+  margin:10px;
+  position:relative;
+  top: 20px;
+
+}
+.text1{
+  color: aliceblue;
+}
+.glyphicon{
+  color: aliceblue;
+
+}
+.btn{
+  position:absolute ; 
+  top: 120%;
+}
+.gio_hang{
+  margin:10px;
+  position:relative;
+  top: -15px;
+
+}
+
+.group1{ 
+  border: 2px solid orangered;
+}
+
+.img{
+  width: 10px;
+  height: 10px;
+  padding: 3%;
+}
+/* hieu ung anh*/
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover {
+  opacity: 1;
+}
+.wrap-item{
+  display: flex;
+  justify-content: center;
+}
+.item{
+  display: flex;
+  width: 5%;
+  padding: 20px 10px;
+  align-items: center;
+  border: 1px solid rgb(127, 126, 126);
+  background: white;
+  width: unset;
+
+}
+.title-text{
+  color: black;
+}
+
+#so_1{
+  display: block;
+  display: flex;
+  justify-content: center;
+}
+
+
+.product-item a img{
+  padding: 5px;
+  width: 250px;
+  height:350px;
+ 
+  background-color: orangered;
+  
+}
+.box4tong{
+  display: flex;
+}
+.box4{
+  width: 35%;
+  height: 650px;
+
+  margin-left: 0px;
+}
+.box4 img{
+  width: 100%;
+  margin-top: 10px;
+}
+.box4 h4{
+padding-left: 40px;
+color: black;
+}
+.box4 h4:hover{
+  color: white;
+}
+.box4:hover{
+ 
+      border: 3px solid orangered;
+      background-color: orangered;
+
+}
+del {
+  text-decoration: line-through;
+}
+.box5tong{
+  display: flex;
+  width: 60%;
+  
+}
+.box5{
+  width: 250px;
+  height: 300px;
+  background-color: white;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.box5 img{
+width: 100%;
+  height: 200px ;
+}
+.box5 h4{
+  color: black;
+  margin-left: 10px;
+}
+.box5 h4:hover{
+  color: white;
+}
+.box5:hover{
+ 
+      border: 3px solid orangered;
+      background-color:orangered;
+
+}
+
+.dinh_dang{
+  color: black;
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr 1fr ;
+}
+.dinh_dang2{
+  color: white;
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr 1fr ;
+}
+
+.item-video:after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+  border: solid 2px rgba(255,255,255,0.5);
+  border-radius: 50%;
+  background-size: 12px;
+  z-index: 1;
+  transition: all 0.3s ease 0s;
+}
+
+.item-video {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  border: 3px solid #f26522;
+}
+
+.product_img a img{
+  display: block;
+  padding: 10px;
+  width: 500px;
+  height:450px;
+  background-color: rgb(118, 117, 116);
+  
+}
+
+
+div {
+  display: block;
+}
+
+.dinh_dang3{
+  display: grid;
+  grid-template-columns: 20% 15% 20% 10% 20% 20%;
+  height:300px;
+}
+
+footer form {
+  position: relative;
+  background-color: #04AA6D;
+}
+.b1:hover img{
+  transform: scale(1.11);
+  opacity: 1;
+}
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.final{
+  color: white;
+  text-align: center;
+}
+
+
+
+
